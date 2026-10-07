@@ -1,0 +1,2 @@
+const fs=require('fs');const path=require('path');const root=path.resolve(__dirname,'..');const output=path.join(root,'dist');fs.mkdirSync(output,{recursive:true});for(const name of ['index.html','app.js','controls.js','projects.js','desktop.js','style.css','reference-style.css','native-style.css','reference.png','app-icon.png'])fs.copyFileSync(path.join(root,name),path.join(output,name));console.log('Desktop frontend prepared.');
+

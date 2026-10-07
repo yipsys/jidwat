@@ -1,0 +1,3 @@
+{"name":"jidwat","version":"0.1.0","private":true,"scripts":{"prepare-ui":"node scripts/prepare-ui.cjs","desktop":"npm run prepare-ui && tauri dev","build":"npm run prepare-ui && tauri build"},"devDependencies":{"@tauri-apps/cli":"^2.0.0"}}
+
+
