@@ -1,4 +1,4 @@
-# jidwat
+# jidwat   full release november 12th
 
 **A free, work-in-progress desktop tool for exploring game assets, models, and levels.**
 
